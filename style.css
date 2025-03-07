@@ -1,0 +1,201 @@
+body {
+    background: linear-gradient(to right, blue, red);
+    min-height: 500vh;
+}
+
+.rounded-box, .rounded-box2, .rounded-box3, .rounded-box4 {
+    position: absolute;
+    width: 1130px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.rounded-box {
+    top: 70px;
+    left: 110px;
+}
+
+.rounded-box2 {
+    top: 600px;
+    left: 110px;
+}
+
+.rounded-box3 {
+    top: 1130px;
+    left: 110px;
+}
+
+.rounded-box4 {
+    top: 1660px;
+    left: 110px;
+}
+
+button {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, blue, red);
+    color: white;
+    right: 520px;
+    top: 440px;
+    width: 150px;
+}
+
+.Nitpadpng, .Pintpng, .Nitpadpng1, .Pintpng1 {
+    width: 250px;
+    position: absolute;
+    height: 250px;
+}
+
+.Nitpadpng {
+    left: 100px;
+    top: 100px;
+}
+
+.Pintpng {
+    right: 100px;
+    top: 100px;
+}
+
+.Nitpadpng1 {
+    left: 100px;
+    top: 100px;
+}
+
+.Pintpng1 {
+    right: 100px;
+    top: 100px;
+}
+
+.text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10 {
+    position: absolute;
+    font-family: Comic Sans MS;
+}
+
+.text {
+    left: 200px;
+}
+
+.text1 {
+    left: 180px;
+    top: 30px;
+    font-size: 30px;
+}
+
+.text2 {
+    right: 180px;
+    top: 30px;
+    font-size: 30px;
+}
+
+.text3 {
+    top: 340px;
+    left: 100px;
+    font-size: 17px;
+}
+
+.text4 {
+    top: 340px;
+    right: 150px;
+    font-size: 17px;
+}
+
+.text5 {
+    left: 380px;
+    top: -45px;
+    font-size: 30px;
+}
+
+.text6 {
+    left: 120px;
+    top: 50px;
+    font-size: 30px;
+}
+
+.text7 {
+    right: 150px;
+    top: 50px;
+    font-size: 30px;
+}
+
+.text8 {
+    left: 400px;
+    top: 30px;
+    font-size: 30px;
+}
+
+.text9 {
+    left: 170px;
+    top: 50px;
+    font-size: 30px;
+}
+
+.text10 {
+    right: 190px;
+    top: 50px;
+    font-size: 30px;
+}
+
+.onclick {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, blue, red);
+    color: white;
+    left: 150px;
+    top: 400px;
+    width: 150px;
+}
+
+.onclick2 {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, blue, red);
+    color: white;
+    right: 150px;
+    top: 400px;
+    width: 150px;
+}
+
+
+.left-button {
+    position: relative;
+    left:150px; /* Сдвиг влево */
+    top:400px;
+
+}
+
+.right-button {
+    position: relative;
+    left: 680px; /* Сдвиг вправо */
+    top:400px;
+}
+.footer {
+    position: fixed; /* Фиксированное позиционирование */
+    bottom: 0; /* Прижимаем к нижнему краю */
+    left: 0; /* Прижимаем к левому краю */
+    width: 100%; /* Ширина на всю страницу */
+    text-align: center; /* Центрирование текста */
+    background-color: rgba(0, 0, 0, 0.5); /* Фон футера (полупрозрачный) */
+    padding: 10px 0; /* Отступы внутри футера */
+    font-family: Comic Sans MS, sans-serif; /* Шрифт */
+    font-size: 18px; /* Размер текста */
+    color: white; /* Цвет текста */
+    z-index: 1000; /* Убедимся, что футер поверх других элементов */
+}
+
+.footer-text {
+    margin: 0; /* Убираем отступы */
+}
