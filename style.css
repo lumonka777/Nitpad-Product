@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, blue, red);
+   background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
     min-height: 500vh;
 }
 
@@ -39,7 +39,7 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background: linear-gradient(to right, blue, red);
+    background: linear-gradient(to right, #00b09b, #96c93d);
     color: white;
     right: 520px;
     top: 440px;
@@ -148,7 +148,7 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background: linear-gradient(to right, blue, red);
+    background: linear-gradient(to right, #00b09b, #96c93d);
     color: white;
     left: 150px;
     top: 400px;
@@ -162,7 +162,7 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background: linear-gradient(to right, blue, red);
+    background: linear-gradient(to right, #00b09b, #96c93d);
     color: white;
     right: 150px;
     top: 400px;
